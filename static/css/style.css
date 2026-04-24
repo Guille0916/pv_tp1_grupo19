@@ -201,31 +201,27 @@ footer{
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
+/* main de perfil.html */
 
-/*Franco */
-
-.probando{
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr;
-    gap:10px;
-}
-/*lo de arriba .probando  intentaba entender que es grid
-grid o  tabla  yo lo imagino como parrilla 
-ademas del centro  y si quieres contenido derecha e izquierda como otro menu  grid es una opcion */
-
-.mi-cuadro{
-width:300px;
-height:200px;
-border:2px solid black;
-
+.contenedor-perfil{
+ text-align: center;
+  padding: 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 15px;
+  background-color: #eff6ff;
+  max-width: 500px;
+  width: 100%;
 }
 
-
-/*usando flexbox*/
-/*centrar lo que sea o directamente en el body (todo) tambien puedes combinarlo si ya tenia  class */
-.centrar{
-display:flex;
-flex-direction:column;
-align-items:center;
-
+.imagen-perfil{
+    width: 200px;
+    height: 150px;
 }
+
+main {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+             
+}
+
